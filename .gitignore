@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pgpass
+*credentials*
+*secret*
+*.pem
+*.key
+
+# Local runtime data
+logs/*.jsonl
+historical_analysis/
+*.log
+
+# Generated knowledge data and embeddings
+knowledge_ingestion/data/
+knowledge_ingestion/metadata/
+
+# Backups and temporary files
+*.bak
+*.backup
+*.before_*
+*.tar.gz
+.DS_Store
+
+# Editor and development backups
+*.bak-*
+*.before_*
+*.pre_*
+*.old
+*.orig
+*.swp
+*.swo
+
+# Generated ingestion reports
+knowledge_ingestion/reports/
